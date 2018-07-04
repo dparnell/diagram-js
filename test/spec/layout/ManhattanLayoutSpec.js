@@ -32,7 +32,7 @@ describe('layout/ManhattanLayout', function() {
         b = point(200, 200);
 
 
-    it('should create h:v manhattan connection', function() {
+    it.only('should create h:v manhattan connection', function() {
 
       // when
       var connection = connectPoints(a, b, 'h:v');
